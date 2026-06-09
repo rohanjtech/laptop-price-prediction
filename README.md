@@ -330,14 +330,12 @@ model = joblib.load("models/laptop_price_model.pkl")
 
 ## 📂 Project Structure
 
+```text
 laptop-price-prediction/
-│
 ├── data/
 │   └── laptop_price.csv
-│
 ├── notebooks/
 │   └── laptop_price_prediction.ipynb
-│
 ├── images/
 │   ├── price_distribution.png
 │   ├── correlation_heatmap.png
@@ -346,13 +344,12 @@ laptop-price-prediction/
 │   ├── residual_plot.png
 │   ├── avg_laptop_price.png
 │   └── original_price_vs_log_transformed_price.png
-│
 ├── models/
 │   └── laptop_price_model.pkl
-│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
 
 ```
 
